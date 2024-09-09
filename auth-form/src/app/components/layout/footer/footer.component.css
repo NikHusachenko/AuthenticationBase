@@ -1,0 +1,15 @@
+.footer-container {
+    height: 8vh;
+    position: sticky;
+    bottom: 0;
+    border-top: 2px solid lightgray;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(50, 50, 50, 0.7);
+}
+
+.footer-label {
+    margin: 20px;
+}

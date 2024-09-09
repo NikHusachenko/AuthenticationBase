@@ -1,0 +1,8 @@
+<div class="sign-up-container">
+    <div class="form-container">
+        <input type="text" class="form-input" autocomplete="off" [(ngModel)]="loginModel.fullName" />
+        <input type="text" class="form-input" autocomplete="off" [(ngModel)]="loginModel.login" />
+        <input type="password" class="form-input" autocapitalize="off" [(ngModel)]="loginModel.password" />
+        <input type="button" class="form-button" value="Sign up" (click)="signUp()" />
+    </div>
+</div>

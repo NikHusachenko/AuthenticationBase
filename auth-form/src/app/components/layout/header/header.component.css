@@ -1,0 +1,9 @@
+.my-header-header {
+    border-bottom: 2px solid lightgray;
+    max-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgba(50, 50, 50, 0.7);
+}

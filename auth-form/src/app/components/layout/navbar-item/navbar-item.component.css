@@ -1,0 +1,10 @@
+.navbar-item {
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+:hover.navbar-item {
+    text-decoration: underline;
+    color: white;
+}

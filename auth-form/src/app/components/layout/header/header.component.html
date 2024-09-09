@@ -1,0 +1,5 @@
+<nav class="my-header-header">
+    <div *ngFor="let item of links">
+        <app-navbar-item [label]="item.label" [route]="item.route"></app-navbar-item>
+    </div>
+</nav>
